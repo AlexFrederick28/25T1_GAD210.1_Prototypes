@@ -1654,6 +1654,10 @@ MonoBehaviour:
   - {fileID: 4957747633482414575, guid: 75770f46e06451b4b8fef6311d831bd1, type: 3}
   - {fileID: 166391609894682232, guid: 017715c6fc0b0bf448d666ae659f2810, type: 3}
   - {fileID: 1940801722896700256, guid: e93aad0affacfc14aad28a1c97483ef0, type: 3}
+  locationToSpawn:
+  - {fileID: 4543073124532859350, guid: 8613d799f29e3a84e94c6bf4d8931ae3, type: 3}
+  - {fileID: 1834878719100280910, guid: 8c49b9125d294ea41958c75f2f442623, type: 3}
+  - {fileID: 19512284453854435, guid: 7b505054e9f27a841b44008e2f2eeaec, type: 3}
   creatureChosen: []
   locationChosen: []
   answerScene: Answer

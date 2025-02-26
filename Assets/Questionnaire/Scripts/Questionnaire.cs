@@ -12,6 +12,7 @@ public class Questionnaire : MonoBehaviour
     public TextMeshProUGUI locationText;
 
     public GameObject[] creatureToSpawn;
+    public GameObject[] locationToSpawn;
 
     public List<string> creatureChosen = new List<string>();
 
@@ -74,15 +75,15 @@ public class Questionnaire : MonoBehaviour
 
             if (locationChosen.Contains("500m Above Ground"))
             {
-
+                Instantiate(locationToSpawn[0]);
             }
             else if (locationChosen.Contains("500m Below Ground"))
             {
-
+                Instantiate(locationToSpawn[1]);
             }
             else if (locationChosen.Contains("Open Ocean"))
             {
-
+                Instantiate(locationToSpawn[2]);
             }
 
         }
